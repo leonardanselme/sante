@@ -1,5 +1,5 @@
 {
-  "name": "new-nextjs-project",
+  "name": "projetcode",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.3.0"
+    "@auth/mongodb-adapter": "^2.6.0",
+    "axios": "^1.8.4",
+    "bad-words": "^4.0.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "next": "14.2.0",
+    "next-auth": "^5.0.0-beta.25",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.5.2",
+    "recharts": "^2.15.2",
+    "stripe": "^17.7.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.3.0",
-    "@eslint/eslintrc": "^3"
+    "@babel/core": "^7.26.10",
+    "@babel/eslint-parser": "^7.26.10",
+    "@types/node": "^22.13.10",
+    "autoprefixer": "^10.4.21",
+    "daisyui": "^5.0.23",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  },
+  "babel": {
+    "presets": [
+      "next/babel"
+    ]
   }
 }
